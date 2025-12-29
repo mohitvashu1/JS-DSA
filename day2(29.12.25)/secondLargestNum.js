@@ -1,4 +1,4 @@
-let arr = [15, 74, 83, 78, 43, 32];
+let arr = [15, 74, 83, 78, 43,83, 32];
 
 
 function SecondLargestOfNum(){
@@ -9,7 +9,7 @@ for(i=0; i<arr.length;i++){
         secondlargestNum=largestNum
         largestNum=arr[i]
         
-    }else if(arr[i]>secondlargestNum){
+    }else if(arr[i]<largestNum && arr[i] > secondlargestNum){
         secondlargestNum=arr[i]
     }
     
