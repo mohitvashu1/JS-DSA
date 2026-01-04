@@ -21,8 +21,9 @@ function returnX(){
     let x=0
     for(i=1;i<arr.length;i++){
         if(arr[i]!==arr[x]){
-            x++;
+           x++
             arr[x] = arr[i]
+              
         }
     }
     return x+1

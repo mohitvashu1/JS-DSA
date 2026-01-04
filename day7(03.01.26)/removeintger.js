@@ -21,7 +21,7 @@
 // function removeInt(){
 //     num = num.filter(nums=>nums!==val)
 
-//     return num
+//     return num.length
 // }
 // console.log(removeInt());
 
