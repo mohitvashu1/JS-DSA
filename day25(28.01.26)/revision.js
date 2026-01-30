@@ -43,3 +43,5 @@ var gcd=function(a,b){
 
 console.log(gcd(40,44));
 
+
+
